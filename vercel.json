@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "src": "^/(.*)$",
+      "headers": {
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.bitrix24.ru https://*.bitrix24.com https://*.bitrix24.eu https://*.bitrix24.kz https://*.bitrix24.by https://crm.americanglobalgroup.com"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/$",
+      "dest": "/api/app"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Գլոբալ ոճեր Bitrix-ի ընդհանուր տեսքի համար */
+body {
+  margin: 0;
+  background-color: #f4f7f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid #edeef0;
+}
+
+td {
+  border-bottom: 1px solid #f2f4f6;
+}
+
+tr:hover td {
+  background-color: #f9fbfb;
+}
